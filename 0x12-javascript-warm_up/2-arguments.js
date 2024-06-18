@@ -3,7 +3,7 @@
 #!/usr/bin/env node
 
 // Access the command-line arguments
-const args = process.argv.slice(2);
+const args = process.argv.legnth - 2;
 
 // Check the number of arguments
 if (args.length === 0) {
